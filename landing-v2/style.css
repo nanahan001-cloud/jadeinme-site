@@ -304,6 +304,15 @@ html:not(.js) .nav-toggle{display:none}
   .quiz-note{font-size:22px}
 }
 @media (prefers-reduced-motion:reduce){.quiz-opt{transition:none}}
+/* 우리와 맞는 회원: 예약 바로 앞에서 분명하게 말하는 기준 */
+.fit-list{list-style:none;margin:18px 0 0;padding:0}
+.fit-list li{position:relative;padding-left:34px;font-size:17px;line-height:1.5;margin-top:12px;font-weight:700}
+.fit-list li::before{content:"✓";position:absolute;left:2px;top:-2px;font:700 24px/1.2 var(--font-hand);color:var(--ink)}
+.fit-list--no li{font-weight:500;color:#4a4a44}
+.fit-list--no li::before{content:"✕";color:#b4453a}
+.card .tag--no{background:#b4453a}
+.fit-closing{margin-top:calc(var(--cell)*2);max-width:36em;font-weight:900;font-size:clamp(20px,2.3vw,30px);line-height:1.55;letter-spacing:-.01em}
+.fit-closing strong{font-weight:900;background:linear-gradient(transparent 62%,rgba(242,220,107,.45) 62%)}
 .flyer-dialog{border:0;padding:0;background:var(--paper);border-radius:var(--radius);max-width:min(92vw,560px);max-height:92vh;overflow:auto;color:var(--ink)}
 .flyer-dialog::backdrop{background:rgba(10,25,18,.78)}
 .flyer-dialog img{width:100%;height:auto}
