@@ -557,7 +557,8 @@ function back(){
 }
 
 /* ---------- 결과 계산 ---------- */
-const BOOK = "https://m.place.naver.com/place/1586414822/ticket";   // 네이버 예약 (모든 상담·체험 버튼)
+const BOOK = "https://booking.naver.com/booking/5/bizes/631233/items/5754491?area=ple&lang=ko&theme=place";   // 네이버 예약 · 무료 상담 페이지
+const TRIAL = "https://booking.naver.com/booking/5/bizes/631233/items/6654138?area=ple&lang=ko&theme=place";  // 네이버 예약 · 체험 수업 페이지
 const short = k => T[k].name.replace(" 선생님","");
 
 /* 추천 순서
@@ -639,6 +640,7 @@ function showResult(){
     </div>` : ""}
     <div class="actions">
       <a class="btn" href="${BOOK}" target="_blank" rel="noopener">무료 상담 예약하기</a>
+      <a class="btn" href="${TRIAL}" target="_blank" rel="noopener">체험 수업 예약하기</a>
       <button class="btn soft" onclick="start()">다시 테스트하기</button>
       <a class="btn soft" href="../landing-v2/index.html">홈으로</a>
     </div>`;
