@@ -333,11 +333,11 @@ window.JADE_REVIEWS = {
   },
   {
    "id": "k3-gift-01",
-   "type": "gift",
+   "type": "kakao",
    "teacher": "kim",
    "w": 480,
    "h": 567,
-   "caption": "회원님이 챙겨주신 마음",
+   "caption": "회원님이 써주신 편지",
    "thumb": "assets/reviews/thumb/k3-gift-01.jpg?v=20261013l",
    "full": "assets/reviews/full/k3-gift-01.jpg?v=20261013l"
   },
@@ -824,11 +824,11 @@ window.JADE_REVIEWS = {
   },
   {
    "id": "b-gift-005",
-   "type": "gift",
+   "type": "kakao",
    "teacher": "center",
    "w": 480,
    "h": 480,
-   "caption": "회원님이 챙겨주신 마음",
+   "caption": "회원님이 써주신 편지",
    "thumb": "assets/reviews/thumb/blog-gift-005.jpg?v=20261013d",
    "full": "assets/reviews/full/blog-gift-005.jpg?v=20261013d"
   },
