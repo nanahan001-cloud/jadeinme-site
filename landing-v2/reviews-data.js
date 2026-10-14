@@ -1940,86 +1940,6 @@ window.JADE_REVIEWS = {
  ],
  "videos": [
   {
-   "id": "local-interview-center-004",
-   "src": "assets/video/web/interview-center-004.mp4?v=20261013d",
-   "poster": "assets/video/web/interview-center-004.jpg?v=20261013d",
-   "title": "“3주 못하면 찌뿌둥, 너무 좋아요”",
-   "durationSec": 15,
-   "w": 720,
-   "h": 1280,
-   "kind": "review"
-  },
-  {
-   "id": "trial-kyung-001",
-   "src": "assets/video/web/trial-kyung-001.mp4?v=20261013d",
-   "poster": "assets/video/web/trial-kyung-001.jpg?v=20261013d",
-   "title": "경지원 실장님 체험수업 현장",
-   "durationSec": 43,
-   "w": 720,
-   "h": 720,
-   "kind": "review"
-  },
-  {
-   "id": "ig-DdOk4_sBIxh",
-   "src": "assets/video/ig/DdOk4_sBIxh.mp4?v=20261013d",
-   "poster": "assets/video/ig/DdOk4_sBIxh.jpg?v=20261013d",
-   "title": "고질적인 목·발바닥 통증 없어질 줄 몰랐어요",
-   "durationSec": 16.2,
-   "w": 540,
-   "h": 960,
-   "kind": "review"
-  },
-  {
-   "id": "ig-CekdHWtJ6kO",
-   "src": "assets/video/ig/CekdHWtJ6kO.mp4?v=20261013d",
-   "poster": "assets/video/ig/CekdHWtJ6kO.jpg?v=20261013d",
-   "title": "디스크 수술 후 무릎·발목 통증 회원님 인터뷰",
-   "durationSec": 22.6,
-   "w": 540,
-   "h": 960,
-   "kind": "interview"
-  },
-  {
-   "id": "ig-DN0qap05mwr",
-   "src": "assets/video/ig/DN0qap05mwr.mp4?v=20261013d",
-   "poster": "assets/video/ig/DN0qap05mwr.jpg?v=20261013d",
-   "title": "두통이 씻은 듯이 없어졌어요",
-   "durationSec": 29.5,
-   "w": 540,
-   "h": 960,
-   "kind": "interview"
-  },
-  {
-   "id": "ig-C_IwZqaS78E",
-   "src": "assets/video/ig/C_IwZqaS78E.mp4?v=20261013d",
-   "poster": "assets/video/ig/C_IwZqaS78E.jpg?v=20261013d",
-   "title": "마지막 회차 인터뷰, 회원님의 눈물",
-   "durationSec": 34.7,
-   "w": 540,
-   "h": 960,
-   "kind": "interview"
-  },
-  {
-   "id": "ig-DM8OIpczU6u",
-   "src": "assets/video/ig/DM8OIpczU6u.mp4?v=20261013d",
-   "poster": "assets/video/ig/DM8OIpczU6u.jpg?v=20261013d",
-   "title": "자궁 적출 후 1년, 점점 좋아지고 있어요",
-   "durationSec": 35.2,
-   "w": 540,
-   "h": 960,
-   "kind": "interview"
-  },
-  {
-   "id": "ig-CyTMoUOL5ih",
-   "src": "assets/video/ig/CyTMoUOL5ih.mp4?v=20261013d",
-   "poster": "assets/video/ig/CyTMoUOL5ih.jpg?v=20261013d",
-   "title": "명상수업 후기, 불안함의 원인을 알게 되다",
-   "durationSec": 35.5,
-   "w": 540,
-   "h": 960,
-   "kind": "interview"
-  },
-  {
    "id": "ig-DQEJgk6E47I",
    "src": "assets/video/ig/DQEJgk6E47I.mp4?v=20261013d",
    "poster": "assets/video/ig/DQEJgk6E47I.jpg?v=20261013d",
@@ -2045,6 +1965,66 @@ window.JADE_REVIEWS = {
    "poster": "assets/video/ig/ChlqHsKpN6P.jpg?v=20261013d",
    "title": "어깨 통증 재활운동 후 인터뷰",
    "durationSec": 46.2,
+   "w": 540,
+   "h": 960,
+   "kind": "interview"
+  },
+  {
+   "id": "ig-C_IwZqaS78E",
+   "src": "assets/video/ig/C_IwZqaS78E.mp4?v=20261013d",
+   "poster": "assets/video/ig/C_IwZqaS78E.jpg?v=20261013d",
+   "title": "마지막 회차 인터뷰, 회원님의 눈물",
+   "durationSec": 34.7,
+   "w": 540,
+   "h": 960,
+   "kind": "interview"
+  },
+  {
+   "id": "trial-kyung-001",
+   "src": "assets/video/web/trial-kyung-001.mp4?v=20261013d",
+   "poster": "assets/video/web/trial-kyung-001.jpg?v=20261013d",
+   "title": "경지원 실장님 체험수업 현장",
+   "durationSec": 43,
+   "w": 720,
+   "h": 720,
+   "kind": "review"
+  },
+  {
+   "id": "ig-DdOk4_sBIxh",
+   "src": "assets/video/ig/DdOk4_sBIxh.mp4?v=20261013d",
+   "poster": "assets/video/ig/DdOk4_sBIxh.jpg?v=20261013d",
+   "title": "고질적인 목·발바닥 통증 없어질 줄 몰랐어요",
+   "durationSec": 16.2,
+   "w": 540,
+   "h": 960,
+   "kind": "review"
+  },
+  {
+   "id": "ig-DN0qap05mwr",
+   "src": "assets/video/ig/DN0qap05mwr.mp4?v=20261013d",
+   "poster": "assets/video/ig/DN0qap05mwr.jpg?v=20261013d",
+   "title": "두통이 씻은 듯이 없어졌어요",
+   "durationSec": 29.5,
+   "w": 540,
+   "h": 960,
+   "kind": "interview"
+  },
+  {
+   "id": "ig-DM8OIpczU6u",
+   "src": "assets/video/ig/DM8OIpczU6u.mp4?v=20261013d",
+   "poster": "assets/video/ig/DM8OIpczU6u.jpg?v=20261013d",
+   "title": "자궁 적출 후 1년, 점점 좋아지고 있어요",
+   "durationSec": 35.2,
+   "w": 540,
+   "h": 960,
+   "kind": "interview"
+  },
+  {
+   "id": "ig-CyTMoUOL5ih",
+   "src": "assets/video/ig/CyTMoUOL5ih.mp4?v=20261013d",
+   "poster": "assets/video/ig/CyTMoUOL5ih.jpg?v=20261013d",
+   "title": "명상수업 후기, 불안함의 원인을 알게 되다",
+   "durationSec": 35.5,
    "w": 540,
    "h": 960,
    "kind": "interview"
@@ -2108,46 +2088,6 @@ window.JADE_REVIEWS = {
    "w": 540,
    "h": 960,
    "kind": "interview"
-  },
-  {
-   "id": "blog-223233292997",
-   "src": "assets/video/blog/223233292997.mp4?v=20261013d",
-   "poster": "assets/video/blog/223233292997.jpg?v=20261013d",
-   "title": "허리 통증·다리 저림 개선 운동 (수업 전후 움직임)",
-   "durationSec": 7.8,
-   "w": 720,
-   "h": 1280,
-   "kind": "change"
-  },
-  {
-   "id": "beforeafter-center-045",
-   "src": "assets/video/web/beforeafter-center-045.mp4?v=20261013d",
-   "poster": "assets/video/web/beforeafter-center-045.jpg?v=20261013d",
-   "title": "김경현 선생님의 허리통증 개선",
-   "durationSec": 7,
-   "w": 720,
-   "h": 720,
-   "kind": "change"
-  },
-  {
-   "id": "beforeafter-center-047",
-   "src": "assets/video/web/beforeafter-center-047.mp4?v=20261013d",
-   "poster": "assets/video/web/beforeafter-center-047.jpg?v=20261013d",
-   "title": "경지원 선생님의 허리통증 개선",
-   "durationSec": 11,
-   "w": 720,
-   "h": 720,
-   "kind": "change"
-  },
-  {
-   "id": "knee-center-001",
-   "src": "assets/video/web/knee-center-001.mp4?v=20261013d",
-   "poster": "assets/video/web/knee-center-001.jpg?v=20261013d",
-   "title": "무릎통증 개선 확인",
-   "durationSec": 11,
-   "w": 720,
-   "h": 1280,
-   "kind": "change"
   }
  ],
  "classPhotos": [
