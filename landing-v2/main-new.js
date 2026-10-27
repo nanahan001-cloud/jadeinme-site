@@ -284,7 +284,7 @@ const CONSULT_ENDPOINT = 'https://script.google.com/macros/s/AKfycbw73cdMA7vRvjl
       setErr('cf-name-err', '', nameEl); setErr('cf-phone-err', '', phoneEl);
       setErr('cf-type-err', ''); setErr('cf-days-err', ''); setErr('cf-time-err', ''); setErr('cf-goal-err', ''); setErr('cf-consent-err', '');
       if (!name) bad('cf-name-err', '이름을 알려 주세요.', nameEl);
-      if (!phone) bad('cf-phone-err', '휴대폰 번호를 확인해 주세요. 예) 010‑1234‑5678', phoneEl);
+      if (!phone) bad('cf-phone-err', '휴대폰 번호 11자리를 확인해 주세요. 예) 01012345678', phoneEl);
       if (!type) bad('cf-type-err', '상담인지 체험인지 골라 주세요.', null, form.querySelector('input[name="type"]'));
       if (!days) bad('cf-days-err', '원하는 요일을 골라 주세요.', null, form.querySelector('input[name="days"]'));
       if (!time) bad('cf-time-err', '운동 가능한 시간대를 골라 주세요.', null, form.querySelector('input[name="time"]'));
@@ -292,7 +292,7 @@ const CONSULT_ENDPOINT = 'https://script.google.com/macros/s/AKfycbw73cdMA7vRvjl
       if (!consent) bad('cf-consent-err', '개인정보 수집·이용에 동의해 주셔야 신청할 수 있어요.', null, form.elements.consent);
       var memoText = form.elements.memo.value.trim();
       if (first) { first.focus(); return; }
-      if (phoneEl.value !== phone) phoneEl.value = phone;
+      /* keep what the visitor typed */
 
       // honeypot: pretend success, send nothing
       if (form.elements.jim_hp.value) { success(); return; }
