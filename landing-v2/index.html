@@ -22,7 +22,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Gaegu:wght@400;700&family=Noto+Sans+KR:wght@400;500;700;900&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="style.css?v=20261013n">
+<link rel="stylesheet" href="style-new.css?v=20261027za">
 <link rel="stylesheet" href="reviews.css?v=20261013d">
 <script>(function(){var h=document.documentElement;h.classList.add('js');setTimeout(function(){if(!window.__jadeReady){h.classList.remove('js');h.classList.add('no-js-fallback')}},2500)})()</script>
 </head>
@@ -38,7 +38,7 @@
       <a href="#teachers">선생님</a>
       <a href="#location">오시는 길</a>
     </nav>
-    <a class="btn btn--sm" href="#booking">상담 예약</a>
+    <a class="btn btn--sm" href="#consult-form">상담 신청</a>
     <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav" aria-label="메뉴 열기" hidden><span class="nav-toggle__bars" aria-hidden="true"></span><span class="nav-toggle__label" aria-hidden="true">메뉴</span></button>
   </div>
 </header>
@@ -54,7 +54,7 @@
       <span class="doodle doodle--sparkles hero-sparkle" aria-hidden="true"></span>
       <p class="lead">다시 운동하기, 조심스러우시죠?<br>괜찮아요. 지금 할 수 있는 움직임부터 시작해요.</p>
       <div class="hero-cta">
-        <a class="btn btn--lg" href="#booking">내 몸에 맞는 운동 상담받기 <span aria-hidden="true">↓</span></a>
+        <a class="btn btn--lg" href="#consult-form">내 몸에 맞는 운동 상담받기 <span aria-hidden="true">↓</span></a>
         <p class="meta">무료 상담 30분 · 운양역 4번 출구 도보 1분</p>
       </div>
       <div class="hero-strip" aria-hidden="true">
@@ -230,7 +230,7 @@
       <div id="class-strip" class="class-strip"></div>
     </div>
     <div class="section-cta reveal">
-      <a class="btn" href="https://booking.naver.com/booking/5/bizes/631233/items/5754491?area=ple&amp;lang=ko&amp;theme=place" target="_blank" rel="noopener">내 몸에 맞는 운동 상담받기 <span aria-hidden="true">↗</span></a>
+      <a class="btn" href="#consult-form">내 몸에 맞는 운동 상담받기 <span aria-hidden="true">↓</span></a>
     </div>
   </div>
 </section>
@@ -246,7 +246,7 @@
   <div class="wrap wrap--wide reviews-wrap">
     <div id="reviews-wall" class="reviews-wall"></div>
     <noscript><p class="fine noscript-note">후기 사진과 영상은 자바스크립트를 켜면 볼 수 있어요. <a href="https://blog.naver.com/only1dk" target="_blank" rel="noopener">네이버 블로그</a>에서도 보실 수 있어요.</p></noscript>
-    <div class="section-cta reviews-cta"><a class="btn" href="https://booking.naver.com/booking/5/bizes/631233/items/5754491?area=ple&amp;lang=ko&amp;theme=place" target="_blank" rel="noopener">내 몸에 맞는 운동 상담받기 <span aria-hidden="true">↗</span></a></div>
+    <div class="section-cta reviews-cta"><a class="btn" href="#consult-form">내 몸에 맞는 운동 상담받기 <span aria-hidden="true">↓</span></a></div>
   </div>
 </section>
 
@@ -374,7 +374,7 @@
 상담에서 이야기해 주세요.</strong></p>
       </div></details>
     <div class="section-cta reveal">
-      <a class="btn" href="https://booking.naver.com/booking/5/bizes/631233/items/5754491?area=ple&amp;lang=ko&amp;theme=place" target="_blank" rel="noopener">내 몸 이야기, 상담에서 해주세요 <span aria-hidden="true">↗</span></a>
+      <a class="btn" href="#consult-form">내 몸 이야기, 상담에서 해주세요 <span aria-hidden="true">↓</span></a>
     </div>
   </div>
 </section>
@@ -385,7 +385,7 @@
     <div class="sec-head reveal">
       <p class="eyebrow">저희의 기준</p>
       <h2 class="display">살만 빼고 싶다면<br>저희와 <span class="hl">맞지 않습니다<span class="doodle doodle--underline" aria-hidden="true"></span></span></h2>
-      <p class="lead">예약하시기 전에 꼭 말씀드리고 싶었어요.<br>제이드인미의 모든 운동은 건강에서 시작합니다.</p>
+      <p class="lead">신청하시기 전에 꼭 말씀드리고 싶었어요.<br>제이드인미의 모든 운동은 건강에서 시작합니다.</p>
       <p class="note note--head">이건 양보 못 해요 →</p>
     </div>
     <div class="cards2 reveal">
@@ -410,24 +410,117 @@
   </div>
 </section>
 
-<!-- BOOKING -->
-<section class="section" id="booking">
+<!-- CONSULT FORM -->
+<section class="section" id="consult-form">
   <div class="wrap">
     <div class="sec-head reveal">
-      <p class="eyebrow">상담·체험</p>
-      <h2 class="display">궁금하면 상담,<br>느껴보고 싶으면 <span class="hl">체험<span class="doodle doodle--underline" aria-hidden="true"></span></span></h2>
-      <p class="lead">둘 다 네이버에서 편한 날짜만 골라 주세요.</p>
-      <span class="doodle doodle--wave head-doodle head-doodle--wave" aria-hidden="true"></span>
+      <p class="eyebrow">상담 신청</p>
+      <h2 class="display">1분 신청하기</h2>
+      <p class="lead">등록하지 않으셔도 괜찮습니다.<br>궁금한 점을 마음 편히 물어보세요.</p>
     </div>
-    <div class="cards2 reveal">
-      <article class="card paper tilt-a"><p class="tag">상담</p><h3>무료 상담</h3><p class="price">무료 · 30분</p><p>센터와 수업이 궁금하다면, 편하게 물어보세요.</p></article>
-      <article class="card paper tilt-b"><p class="tag">체험</p><h3>체험 수업</h3><p class="price">3만 원 · 총 60분</p><p class="sub">상담 20분 + 수업 40분</p><p>수업 방식과 선생님이 나와 맞을지, 직접 느껴보세요.</p></article>
-    </div>
-    <div class="booking-flow reveal">
-      <p class="flow">네이버 예약 → 센터에서 연락 → 시간 확정</p>
-      <p class="flow-note">예약을 남겨 주시면 제이드인미에서 연락드려 상담·체험 여부를 확인하고 시간을 확정해 드려요.</p>
-      <a class="btn btn--xl" href="https://booking.naver.com/booking/5/bizes/631233?area=ple&amp;lang=ko&amp;theme=place" target="_blank" rel="noopener">네이버로 상담·체험 예약하기 <span aria-hidden="true">↗</span></a>
-      <p class="note note--inline">고민은 상담에서 같이 해요 <span class="doodle doodle--star" aria-hidden="true"></span></p>
+    <div class="cf-card paper reveal">
+      <noscript><p class="cf-status">자바스크립트가 꺼져 있어요. <a href="tel:03180496639">031-8049-6639</a>로 전화 주세요.</p></noscript>
+      <form id="cf-form" class="cf-form" novalidate>
+        <fieldset class="cf-field cf-chips cf-tabs" aria-describedby="cf-type-err">
+          <legend class="sr-only">신청 종류 (필수)</legend>
+          <div class="cf-row">
+            <label class="cf-chip"><input type="radio" name="type" value="상담" checked><span>무료 상담 (30분)</span></label>
+            <label class="cf-chip"><input type="radio" name="type" value="체험"><span>체험 수업 <span class="cf-nw">(3만 원 · 60분)</span></span></label>
+          </div>
+          <p class="cf-err" id="cf-type-err" hidden></p>
+        </fieldset>
+        <div class="cf-field">
+          <label for="cf-name">이름 <span class="cf-req">필수</span></label>
+          <input id="cf-name" name="name" type="text" autocomplete="name" required maxlength="30" aria-describedby="cf-name-err">
+          <p class="cf-err" id="cf-name-err" hidden></p>
+        </div>
+        <div class="cf-field">
+          <label for="cf-phone">휴대폰 번호 <span class="cf-req">필수</span></label>
+          <input id="cf-phone" name="phone" type="tel" inputmode="numeric" autocomplete="tel" placeholder="01012345678 (- 없이)" required maxlength="20" aria-describedby="cf-phone-err">
+          <p class="cf-err" id="cf-phone-err" hidden></p>
+        </div>
+        <fieldset class="cf-field cf-chips" aria-describedby="cf-days-err">
+          <legend>원하는 요일 <span class="cf-req">필수</span> <span class="cf-opt">중복 선택 가능</span></legend>
+          <div class="cf-row">
+            <label class="cf-chip cf-chip--day"><input type="checkbox" name="days" value="월"><span>월</span></label>
+            <label class="cf-chip cf-chip--day"><input type="checkbox" name="days" value="화"><span>화</span></label>
+            <label class="cf-chip cf-chip--day"><input type="checkbox" name="days" value="수"><span>수</span></label>
+            <label class="cf-chip cf-chip--day"><input type="checkbox" name="days" value="목"><span>목</span></label>
+            <label class="cf-chip cf-chip--day"><input type="checkbox" name="days" value="금"><span>금</span></label>
+            <label class="cf-chip cf-chip--day"><input type="checkbox" name="days" value="토(오전)"><span>토(오전)</span></label>
+            <label class="cf-chip cf-chip--day cf-chip--any"><input type="checkbox" name="days" value="상관없음"><span>상관없음</span></label>
+          </div>
+          <p class="cf-err" id="cf-days-err" hidden></p>
+        </fieldset>
+        <fieldset class="cf-field cf-chips cf-field--key" aria-describedby="cf-time-hint cf-time-err">
+          <legend><span class="cf-key">운동 가능한 시간대</span> <span class="cf-req">필수</span> <span class="cf-opt">중복 선택 가능</span></legend>
+          <div class="cf-row">
+            <label class="cf-chip"><input type="checkbox" name="time" value="오전"><span>오전</span></label>
+            <label class="cf-chip"><input type="checkbox" name="time" value="낮(오후)"><span>낮(오후)</span></label>
+            <label class="cf-chip"><input type="checkbox" name="time" value="저녁"><span>저녁</span></label>
+            <label class="cf-chip"><input type="checkbox" name="time" value="유동적인 스케줄"><span>유동적인 스케줄</span></label>
+          </div>
+          <p class="cf-hint" id="cf-time-hint" aria-live="polite" hidden>토요일은 오전에만 수업해요.</p>
+          <p class="cf-err" id="cf-time-err" hidden></p>
+        </fieldset>
+        <fieldset class="cf-field cf-teachers cf-field--key">
+          <legend><span class="cf-key">원하는 선생님</span></legend>
+          <div class="cf-tgrid">
+            <label class="cf-tcard"><input type="radio" name="teacher" value="한도경 원장"><span class="cf-tface cf-tface--han"><img src="assets/teacher-han.jpg?v=20261013d" alt="한도경 원장" width="960" height="1200" loading="lazy"></span><span class="cf-tname">한도경 원장</span></label>
+            <label class="cf-tcard"><input type="radio" name="teacher" value="김경현 부원장"><span class="cf-tface cf-tface--kim"><img src="assets/teacher-kim.jpg?v=20261013n" alt="김경현 부원장" width="960" height="1200" loading="lazy"></span><span class="cf-tname">김경현 부원장</span></label>
+            <label class="cf-tcard"><input type="radio" name="teacher" value="경지원 실장"><span class="cf-tface cf-tface--kyung"><img src="assets/teacher-kyung-v2.jpg" alt="경지원 실장" width="960" height="1200" loading="lazy"></span><span class="cf-tname">경지원 실장</span></label>
+            <label class="cf-tcard"><input type="radio" name="teacher" value="추천해 주세요" checked><span class="cf-tface cf-tface--any" aria-hidden="true"><span class="doodle doodle--star"></span></span><span class="cf-tname">추천해 주세요</span></label>
+          </div>
+        </fieldset>
+        <fieldset class="cf-field cf-chips" aria-describedby="cf-goal-err">
+          <legend>원하는 것 <span class="cf-req">필수</span> <span class="cf-opt">중복 선택 가능</span></legend>
+          <div class="cf-row">
+            <label class="cf-chip"><input type="checkbox" name="goal" value="재활"><span>재활</span></label>
+            <label class="cf-chip"><input type="checkbox" name="goal" value="다이어트"><span>다이어트</span></label>
+          </div>
+          <p class="cf-err" id="cf-goal-err" hidden></p>
+        </fieldset>
+        <div class="cf-field">
+          <label for="cf-memo">하고 싶은 말 <span class="cf-opt">선택</span></label>
+          <textarea id="cf-memo" name="memo" rows="3" maxlength="500" placeholder="예) 체험 수업 받고 싶어요 / 궁금한 점"></textarea>
+        </div>
+        <div class="cf-hp" aria-hidden="true">
+          <label for="cf-hp">웹사이트</label>
+          <input id="cf-hp" name="jim_hp" type="text" tabindex="-1" autocomplete="off">
+        </div>
+        <div class="cf-field cf-consent">
+          <label class="cf-check"><input id="cf-consent" name="consent" type="checkbox" required aria-describedby="cf-consent-err"><span>개인정보 수집·이용에 동의합니다 <span class="cf-req">필수</span></span></label>
+          <p class="cf-err" id="cf-consent-err" hidden></p>
+          <details class="cf-details">
+            <summary><span class="s-open">더보기</span><span class="s-close">접기</span></summary>
+            <ul>
+              <li>수집 항목: 이름, 휴대폰 번호, 신청 종류(상담/체험), 희망 요일, 운동 가능한 시간대, 희망 선생님, 목적, (선택) 적어 주신 내용, 접속 정보: 유입 경로, 광고 식별자(쿠키 포함), 기기·브라우저 정보, 접속 시각</li>
+              <li>이용 목적: 상담 연락, 어떤 광고를 보고 오셨는지 확인</li>
+              <li>보관 기간: 신청일부터 1년 (요청하시면 바로 삭제)</li>
+              <li>동의하지 않으셔도 되지만, 그러면 이 신청서로는 접수가 어려워요. 전화(<a href="tel:03180496639" style="white-space:nowrap">031-8049-6639</a>)로는 신청하실 수 있어요.</li>
+              <li>만 14세 미만은 보호자가 신청해 주세요.</li>
+            </ul>
+            <p class="cf-privacy">자세한 내용은 <a href="/privacy.html" target="_blank" rel="noopener">개인정보처리방침</a>에서 확인하실 수 있어요.</p>
+          </details>
+        </div>
+        <div class="cf-pay" id="cf-pay" aria-live="polite" hidden>
+          <p>체험비 30,000원은 선입금이에요. 입금하신 후 신청해 주세요.</p>
+          <p class="cf-pay-acct"><span id="cf-acct">SC제일은행 62120115577 (예금주 한도경)</span> <button type="button" class="cf-copy" id="cf-copy" data-num="62120115577">계좌 복사</button></p>
+        </div>
+        <button class="btn btn--ink btn--lg cf-submit" type="submit">상담·체험 신청하기</button>
+        <ol class="cf-steps" aria-label="신청 순서">
+          <li><span class="cf-step-no" aria-hidden="true">1</span>신청서 작성</li>
+          <li class="cf-step-arrow" aria-hidden="true">→</li>
+          <li><span class="cf-step-no" aria-hidden="true">2</span>확인 후 연락</li>
+          <li class="cf-step-arrow" aria-hidden="true">→</li>
+          <li><span class="cf-step-no" aria-hidden="true">3</span>확정·위치 안내</li>
+        </ol>
+        <p class="cf-sub">휴무엔 다음 날 연락이 갈 수도 있습니다.</p>
+        <p class="cf-status" id="cf-status" role="status" aria-live="polite" hidden></p>
+      </form>
+      <div class="cf-done" id="cf-done" role="status" aria-live="polite" tabindex="-1" hidden>
+        <p>신청 완료! 연락드리겠습니다. 휴무엔 다음 날 연락이 갈 수도 있습니다.</p>
+      </div>
     </div>
   </div>
 </section>
@@ -468,7 +561,7 @@
 
 <div class="sticky-bar">
   <span>무료 상담 30분</span>
-  <a class="btn btn--sm" href="https://booking.naver.com/booking/5/bizes/631233?area=ple&amp;lang=ko&amp;theme=place" target="_blank" rel="noopener">상담·체험 예약</a>
+  <a class="btn btn--sm" href="#consult-form">상담·체험 신청</a>
 </div>
 
 <dialog id="flyer-dialog" class="flyer-dialog" aria-label="선생님 프로필 크게 보기">
@@ -480,6 +573,7 @@
 <script src="reviews-data.js?v=20261015b"></script>
 <script src="reviews-highlights.js?v=20261013n"></script>
 <script src="reviews.js?v=20261013e"></script>
-<script src="main.js?v=20261013d"></script>
+<script src="main-new.js?v=20261027za"></script>
+<script src="track.js?v=20261027a" defer></script>
 </body>
 </html>
