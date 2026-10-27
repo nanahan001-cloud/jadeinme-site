@@ -542,3 +542,6 @@ html:not(.js) .nav-toggle{display:none}
 .cf-tcard:has(input:checked)::after{content:"✓";position:absolute;top:8px;right:8px;z-index:1;width:26px;height:26px;border-radius:50%;background:var(--ink);color:var(--paper);
   box-shadow:0 0 0 2px #fff;font-size:15px;font-weight:900;line-height:26px;text-align:center}
 .cf-tcard:has(input:focus-visible){outline:3px solid var(--marker);outline-offset:3px;box-shadow:0 0 0 6px var(--ink)}
+
+/* 완료 상태: 탭이 사라지면 카드 네 모서리 둥글게 */
+.cf-card:has(#cf-done:not([hidden])){border-top-left-radius:18px;border-top-right-radius:18px;margin-top:calc(var(--cell)*1.5)}
