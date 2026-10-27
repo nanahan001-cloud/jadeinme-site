@@ -195,7 +195,14 @@ const CONSULT_ENDPOINT = 'https://script.google.com/macros/s/AKfycbw73cdMA7vRvjl
     function query(k) {
       try { return new URLSearchParams(location.search).get(k) || ''; } catch (e) { return ''; }
     }
-    function success() {
+    // 신청 성공 -> 감사 페이지로 이동 (이름은 URL이 아니라 sessionStorage로 전달)
+    function success(who) {
+      try { sessionStorage.setItem('jim_thanks_name', who || ''); } catch (e) {}
+      if (bar) bar.classList.add('is-hidden');
+      try { location.assign('thanks.html'); } catch (e) { showInlineDone(); return; }
+      setTimeout(showInlineDone, 3000); // 이동이 안 될 때만 폴백
+    }
+    function showInlineDone() {
       cfDone = true;
       if (bar) bar.classList.add('is-hidden');
       form.hidden = true;
@@ -295,7 +302,7 @@ const CONSULT_ENDPOINT = 'https://script.google.com/macros/s/AKfycbw73cdMA7vRvjl
       /* keep what the visitor typed */
 
       // honeypot: pretend success, send nothing
-      if (form.elements.jim_hp.value) { success(); return; }
+      if (form.elements.jim_hp.value) { success(name); return; }
 
       var saved = readAttr();
       var eventId = (window.crypto && crypto.randomUUID) ? crypto.randomUUID() : (Date.now() + '-' + Math.random().toString(36).slice(2, 10));
@@ -327,7 +334,7 @@ const CONSULT_ENDPOINT = 'https://script.google.com/macros/s/AKfycbw73cdMA7vRvjl
       if (!CONSULT_ENDPOINT) {
         if (window.console) console.warn('CONSULT_ENDPOINT is empty; nothing was sent.', payload);
         var local = /^(localhost|127\.0\.0\.1)$/.test(location.hostname);
-        if (local) { status.hidden = true; success(); fireLead(payload); } else fail();
+        if (local) { status.hidden = true; fireLead(payload); success(name); } else fail();
         return;
       }
       var ctrl = window.AbortController ? new AbortController() : null;
@@ -337,7 +344,7 @@ const CONSULT_ENDPOINT = 'https://script.google.com/macros/s/AKfycbw73cdMA7vRvjl
         method: 'POST', mode: 'no-cors',
         headers: { 'Content-Type': 'text/plain;charset=utf-8' },
         body: JSON.stringify(payload)
-      }).then(function () { clearTimeout(timer); status.hidden = true; success(); fireLead(payload); }, function () { clearTimeout(timer); fail(); });
+      }).then(function () { clearTimeout(timer); status.hidden = true; fireLead(payload); success(name); }, function () { clearTimeout(timer); fail(); });
     });
   }
 })();

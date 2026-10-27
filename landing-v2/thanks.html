@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex">
+<title>신청 완료 | 제이드인미 필라테스</title>
+<meta name="theme-color" content="#1f4a37">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Gaegu:wght@400;700&family=Noto+Sans+KR:wght@400;500;700;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style-new.css?v=20261027z">
+<style>
+.th-main{padding-block:calc(var(--header-h) + 48px) 96px}
+.th-card{max-width:560px;margin-inline:auto;padding:56px 32px 44px;border-radius:var(--radius);text-align:center;box-shadow:0 10px 24px rgba(0,0,0,.22)}
+@media (max-width:700px){.th-card{padding:44px 20px 32px}}
+.th-card h1{font-weight:900;font-size:clamp(30px,6.5vw,44px);line-height:1.3;letter-spacing:-.02em;margin:0 0 24px}
+.th-card p{margin:0 0 8px;font-size:18px;line-height:1.7}
+.th-thanks{font-family:var(--font-hand);font-size:26px !important;font-weight:700;margin-top:20px !important}
+.th-back{display:inline-flex;align-items:center;min-height:44px;margin-top:28px;font-size:15px;color:var(--chalk-dim);text-decoration:underline;text-underline-offset:3px}
+.th-wrap{text-align:center}
+</style>
+</head>
+<body>
+<header class="site-header scrolled">
+  <div class="wrap header-inner">
+    <a class="brand" href="index-new.html"><img src="assets/logo.png" alt="jadeinme 제이드인미 필라테스" width="150" height="150"></a>
+  </div>
+</header>
+<main class="wrap th-main th-wrap">
+  <div class="th-card paper">
+    <h1 id="th-title" tabindex="-1">신청 완료!</h1>
+    <p>연락드리겠습니다.</p>
+    <p>휴무일엔 다음 날 연락이 갈 수도 있습니다.</p>
+    <p class="th-thanks">감사합니다.</p>
+  </div>
+  <a class="th-back" id="th-back" href="index-new.html">← 처음으로</a>
+</main>
+<script>
+(function () {
+  var name = '';
+  try { name = sessionStorage.getItem('jim_thanks_name') || ''; sessionStorage.removeItem('jim_thanks_name'); } catch (e) {}
+  name = name.trim().slice(0, 30);
+  if (name) document.getElementById('th-title').textContent = name + '님 신청 완료!';
+  document.getElementById('th-back').addEventListener('click', function (e) {
+    if (history.length > 1) { e.preventDefault(); history.back(); }
+  });
+  // 광고 픽셀·전환 추적 훅 자리 (픽셀 설치 시 여기에 Lead 이벤트를 넣을 수 있어요. 지금은 랜딩 폼에서 전송 직후 호출합니다)
+})();
+</script>
+</body>
+</html>
