@@ -2,16 +2,6 @@
 window.JADE_REVIEWS = {
  "items": [
   {
-   "id": "merged-kyung-kakao-001",
-   "type": "kakao",
-   "teacher": "kyung",
-   "w": 480,
-   "h": 1303,
-   "caption": "회원님이 보내주신 카톡",
-   "thumb": "assets/reviews/thumb/merged-kyung-kakao-001.jpg?v=20261013d",
-   "full": "assets/reviews/full/merged-kyung-kakao-001.jpg?v=20261013d"
-  },
-  {
    "id": "k3-kakao-01",
    "type": "kakao",
    "teacher": "kim",
@@ -112,16 +102,6 @@ window.JADE_REVIEWS = {
    "full": "assets/reviews/full/naverplace-005.jpg?v=20261013d"
   },
   {
-   "id": "np-006",
-   "type": "naver",
-   "teacher": "kyung",
-   "w": 480,
-   "h": 772,
-   "caption": "회원님이 남겨주신 후기",
-   "thumb": "assets/reviews/thumb/naverplace-006.jpg?v=20261013d",
-   "full": "assets/reviews/full/naverplace-006.jpg?v=20261013d"
-  },
-  {
    "id": "np-007",
    "type": "naver",
    "teacher": "center",
@@ -160,16 +140,6 @@ window.JADE_REVIEWS = {
    "caption": "회원님이 남겨주신 후기",
    "thumb": "assets/reviews/thumb/notion-kakao-han-006.jpg?v=20261013d",
    "full": "assets/reviews/full/notion-kakao-han-006.jpg?v=20261013d"
-  },
-  {
-   "id": "n-kakao-kyung-003",
-   "type": "naver",
-   "teacher": "kyung",
-   "w": 480,
-   "h": 874,
-   "caption": "회원님이 남겨주신 후기",
-   "thumb": "assets/reviews/thumb/notion-kakao-kyung-003.jpg?v=20261013d",
-   "full": "assets/reviews/full/notion-kakao-kyung-003.jpg?v=20261013d"
   },
   {
    "id": "b-kakao-002",
@@ -300,16 +270,6 @@ window.JADE_REVIEWS = {
    "caption": "회원님이 남겨주신 후기",
    "thumb": "assets/reviews/thumb/blog-naverreview-002.jpg?v=20261013d",
    "full": "assets/reviews/full/blog-naverreview-002.jpg?v=20261013d"
-  },
-  {
-   "id": "b-kakao-007",
-   "type": "kakao",
-   "teacher": "center",
-   "w": 480,
-   "h": 929,
-   "caption": "회원님이 보내주신 카톡",
-   "thumb": "assets/reviews/thumb/blog-kakao-007.jpg?v=20261013d",
-   "full": "assets/reviews/full/blog-kakao-007.jpg?v=20261013d"
   },
   {
    "id": "n-kakao-han-007",
@@ -1844,16 +1804,6 @@ window.JADE_REVIEWS = {
    "teacher": "kim"
   },
   {
-   "text": "운동하는 날이 아닌 날에도 지속적으로 몸 상태를 확인해 주시는 선생님은 처음이었습니다.",
-   "source": "회원 카톡·후기",
-   "teacher": "kyung"
-  },
-  {
-   "text": "수업을 받으면서 단 한 번도 지루하다고 느낀 적이 없었습니다.",
-   "source": "회원 카톡·후기",
-   "teacher": "kyung"
-  },
-  {
    "text": "선생님 여기는 따로 광고나 홍보를 대대적으로 하지 않으셔도 되겠어요.",
    "source": "블로그 후기"
   },
@@ -1978,16 +1928,6 @@ window.JADE_REVIEWS = {
    "w": 540,
    "h": 960,
    "kind": "interview"
-  },
-  {
-   "id": "trial-kyung-001",
-   "src": "assets/video/web/trial-kyung-001.mp4?v=20261013d",
-   "poster": "assets/video/web/trial-kyung-001.jpg?v=20261013d",
-   "title": "경지원 실장님 체험수업 현장",
-   "durationSec": 43,
-   "w": 720,
-   "h": 720,
-   "kind": "review"
   },
   {
    "id": "ig-DdOk4_sBIxh",
